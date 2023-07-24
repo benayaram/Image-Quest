@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # API credentials
-UNSPLASH_ACCESS_KEY = '-FraqxuinfcshLREvU12OJYsVjUFvQLJuk7sCF7SmWg'
+UNSPLASH_ACCESS_KEY = 'API KEY HERE'
 
 def search_images(query):
     url = f'https://api.unsplash.com/search/photos'
